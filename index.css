@@ -1,0 +1,151 @@
+.left> p {
+  font-size: 18px; /* permet d'augmenter la taille  */
+  word-spacing: 2px; /* permet de faire un espacement entre les mots */
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Hauteur de la vue complète */
+}
+
+.container {
+  display: flex; /* Activer Flexbox */
+  flex-direction: row; /* Disposer les éléments en ligne */
+  align-items: center; /* Centrer les éléments verticalement */
+  gap: 20px; /* Espacement entre les éléments */
+}
+
+.left {
+  flex: 1; /* Faire que le texte prenne une partie de l'espace */
+  background-color: blue;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 400px;
+  width: 400px;
+  color: white;
+  position: relative;
+}
+
+.right {
+  flex: 1; /* Faire que le texte prenne une partie de l'espace */
+  background-color: white;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  color: black;
+  box-shadow: 2px 2px 2px wheat;
+  height: 400px;
+  text-align: left;
+}
+
+.div {
+  color: rgba(255, 255, 255, 0.5); /* 50% d'opacité */
+}
+
+.content {
+  background-color: white; /* Fond blanc pour le contenu */
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center; /* Centrer le texte */
+}
+
+.sept {
+  font-size: 70px;
+}
+
+.circle {
+  background: #00008B;
+  border-radius:50%;
+  width:160px;
+  height:160px;
+  border:2px solid #00008B;
+  position: relative;
+  top: 20%; 
+  left: 50%; 
+  transform: translate(-50%, -50%);
+}
+
+.reaction {
+  background-color: #FFE4E1; /* lucidar.me pour les couleurs css */
+  border-radius: 2px solid #FFE4E1;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  height: 50px;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.memory {
+  background-color: #EEE8AA;
+  border-radius: 2px solid #EEE8AA;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  height: 50px;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.verbal {
+  background-color: #66CDAA;
+  border-radius: 2px solid #66CDAA;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  height: 50px;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.visual {
+  background-color: #87CEFA;
+  border-radius: 2px solid #87CEFA;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  height: 50px;
+  margin-bottom: 30px;
+  display: flex;
+}
+
+.button {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  height: 50px;
+  width: 250px;
+  text-align: center;
+  font-size: 25px;
+  padding: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+button:hover {
+  background-color: #696969;
+}
+
+.height {
+  text-align: right;
+}
+
+.icon {
+  text-align: left;
+  width: 75%;
+}
+
+.number {
+  text-align: right;
+  width: 25%;
+}
